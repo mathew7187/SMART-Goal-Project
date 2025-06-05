@@ -30,7 +30,7 @@ function animate(){
     ctx.clearRect(0,0,canvas.width, canvas.height);
     ctx.drawImage(background, position, 0, canvas.width, canvas,
         height);
-        drawSprite(playerSprite, player.width, * player.frameX, 
+        drawSprite(playerSprite, player.width, player.frameX, 
         player.height * player.frameY, player.width, player.
         height, player.x, player.y, player.width, player.height)
         ;
